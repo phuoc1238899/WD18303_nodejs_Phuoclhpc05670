@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "13bf1782-3565-4e18-b456-235e5bd07198",
+		"name": "Thithunode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32590032"
+	},
+	"item": [
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API_URL}}/api/hop_dong",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"api",
+						"hop_dong"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "ten_nguoi_mua",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "ten_nguoi_ban",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "gia_tien",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "ngay_ky",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "trang_thai",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{API_URL}}/api/hop_dong",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"api",
+						"hop_dong"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{API_URL}}/api/hop_dong/6",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"api",
+						"hop_dong",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "ten_nguoi_mua",
+							"value": "thong",
+							"type": "text"
+						},
+						{
+							"key": "ten_nguoi_ban",
+							"value": "tam",
+							"type": "text"
+						},
+						{
+							"key": "gia_tien",
+							"value": "3777",
+							"type": "text"
+						},
+						{
+							"key": "ngay_ky",
+							"value": "2024/04/01",
+							"type": "text"
+						},
+						{
+							"key": "trang_thai",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{API_URL}}/api/hop_dong/6",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"api",
+						"hop_dong",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getbyID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API_URL}}/api/hop_dong/5",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"api",
+						"hop_dong",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
